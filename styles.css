@@ -7,6 +7,10 @@ h1, a, div {
   font-family: 'Roboto', sans-serif;
 }
 
+/*h1{
+  font-family: 'pt_serifbold', sans-serif;
+}*/
+
 body {
   margin: 0;
 }
@@ -38,7 +42,7 @@ body {
 .menu__item {
  position: relative;
  margin-right: 28px;
- font: 700 18px/21px Roboto, arial, helvetica, sans-serif;
+ font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
  color: #000;
  text-decoration: none;
  transition: opacity .5s;
@@ -114,15 +118,14 @@ body {
 .main__subtitle {
   margin: 0 0 42px 3px;
   font-weight: normal;
-  font: 600 22px/26px Roboto, arial, helvetica, sans-serif;
-  //letter-spacing: normal;
+  font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
   width: 455px;
   height: 52px;
 }
 
 .main__button {
   display: inline-block;
-  font: bold 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   width: 229px;
   color: #fff;
   background: #0056EC;
