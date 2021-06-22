@@ -7,10 +7,6 @@ h1, a, div {
   font-family: 'Roboto', sans-serif;
 }
 
-/*h1{
-  font-family: 'pt_serifbold', sans-serif;
-}*/
-
 body {
   margin: 0;
 }
@@ -41,7 +37,7 @@ body {
 
 .menu__item {
  position: relative;
- margin-right: 28px;
+ margin: 1px 28px 0 0;
  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
  color: #000;
  text-decoration: none;
@@ -86,7 +82,6 @@ body {
   display: block;
   content: "";
   width: 0;
-  //padding-bottom: 1px;
   height: 3px;
   background: #0056EC;
   opacity:0;
@@ -103,20 +98,20 @@ body {
 }
 
 .main {
-  padding: 75px 63% 206px 0;
-  margin-right: 5px;
+  padding: 74px 63% 206px 0;
+  margin: 0 5px 63px 0;
   background: top right no-repeat url("img/Img1.svg");
 }
 
 .main__title {
   width: 567px;
   height: 255px;
-  margin: 0 0 40px 3px;
+  margin: 0 0 43px 2px;
   font: 700 66px/87px pt_serifbold, helvetica, sans-serif;
 }
 
 .main__subtitle {
-  margin: 0 0 42px 3px;
+  margin: 0 0 40px 3px;
   font-weight: normal;
   font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
   width: 455px;
@@ -141,5 +136,23 @@ body {
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(to top, #ECF3FF, #FFF) ;
+  background: linear-gradient(to top, #ECF3FF 85%, #FFF 15%) ;
+}
+
+.dots {
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 32px;
+  height: 8px;
+  }
+
+.dots__circle {
+  width: 8px;
+  height: 8px;
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: .7;
 }
