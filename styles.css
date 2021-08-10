@@ -464,6 +464,7 @@ body {
   .main__title {
     font: 700 46px/61px  pt_serifbold, arial, helvetica, sans-serif;
   }
+}
 
 @media(max-width: 860px){
   .main {
@@ -509,10 +510,7 @@ body {
 
   .main__title {
     width: 434px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 35px;
+    margin: 15px auto 35px auto;
     padding-top: 2px;
     font: 700 50px/66px  pt_serifbold, arial, helvetica, sans-serif;
   }
@@ -661,10 +659,7 @@ body {
 
   .main__subtitle {
     width: 177px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin: 0 auto 15px auto;
     padding: 10px 5px;
     font: 500 12px/15px Roboto, arial, helvetica, sans-serif;
   }
