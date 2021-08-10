@@ -7,6 +7,7 @@
     src: url('Fonts/ptserif-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -18,6 +19,7 @@
     src: url('Fonts/ptserif-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -29,6 +31,7 @@
     src: url('Fonts/ptserif-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -40,5 +43,6 @@
     src: url('Fonts/ptserif-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
